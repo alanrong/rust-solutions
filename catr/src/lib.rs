@@ -16,7 +16,7 @@ pub struct Config {
 pub fn get_args() -> MyResult<Config> {
     let matches = App::new("catr")
         .version("0.1.0")
-        .author("Ken Youens-Clark <kyclark@gmail.com>")
+        .author("alanrong <alanrong@gmail.com>")
         .about("Rust cat")
         .arg(
             Arg::with_name("files")
